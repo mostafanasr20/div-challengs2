@@ -568,8 +568,11 @@ ul{
          width: 701px;
             height: 282px;
             .new{
-                width: 330px;
+                width: 350px;
                 height: 32px;
+                display: flex;
+                align-items: center;
+                gap: 3px;
             }
             h1{
                 font-size: 30px;
