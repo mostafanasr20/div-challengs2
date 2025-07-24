@@ -251,9 +251,20 @@ ul{
         }
     }
 }
+@media(max-width : 430px){
+    .header{
+        overflow: hidden;
+        width: 100%;
+        padding: 12px;
+        ul{
+            display: none;
+        }
+    }
+}
 .landing{
-   .container{
-    padding: 96px 16px;
+     padding: 20px 20px;
+    .container{
+   padding: 96px 16px;
     .back{
         position: relative;
         img{
@@ -297,6 +308,7 @@ ul{
             margin: 16px 0 0;
             line-height: 1.5;
             color: #e5e7eb;
+            font-weight: 600;
             span{
                 background-image:linear-gradient( to right,#a855f7 ,#f472b6 , #fde047 ) ;
                 background-clip: text;
@@ -419,6 +431,167 @@ ul{
                     display: none;
                 }
             }
+        }
+        .center-text{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 96px 0;
+            h2{
+                    max-width: 320px;
+                    font-weight: 600;
+                    font-size: 1rem;
+            }
+            .svg{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 8px;
+                width: 847px;
+                height: 35px;
+               text-align: center;
+                 margin-right: 100px;
+                 margin-top: 0;
+            }
+        }
+       }
+    }
+}
+@media(max-width :844px){
+    .landing{
+        width: 100%;
+       .container{
+        width: 879px;
+        .back{
+            display: none;
+        }
+        .text{
+         width: 701px;
+            height: 282px;
+            h1{
+                font-size: 48px;
+                width: 701px;
+                br:first-child{
+                    display: none;
+                }
+            }
+            p{
+                font-size: 16px;
+                font-weight: normal;
+                color: #e5e7eb;
+                width: 600px;
+                 br{
+                    display: none;
+                }
+            }
+        }
+        .center-text{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 96px 0;
+            width: 701;
+            h2{
+                    max-width: 320px;
+                    font-weight: 600;
+                    font-size: 1rem;
+            }
+            .svg{
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+              flex-wrap: wrap;
+                width: 701px;
+                height: 35px;
+               text-align: center;
+                padding: 0 48px;
+            }
+        }
+       }
+    }
+}
+@media(max-width :767px){
+    .landing{
+        padding: 20px 5px;
+        width: 100%;
+       .container{
+        width: 752px;
+        .back{
+            display: none;
+        }
+        .text{
+         width: 701px;
+            height: 282px;
+            h1{
+                font-size: 35px;
+                width: 720px;
+                br:first-child{
+                    display: none;
+                  
+                }
+            }
+            p{
+                font-size: 16px;
+                font-weight: normal;
+                color: #e5e7eb;
+                width: 600px;
+                /* margin: 0; */
+                line-height: 1.9;
+                 br{
+                    display: none;
+                }
+            }
+        }
+        .btn{
+            margin: 0;
+        }
+        .center-text{
+             display: none;
+        }
+       }
+    }
+}
+@media(max-width :430px){
+    .landing{
+        overflow: hidden;
+        padding: 20px 0;
+      
+       .container{
+        width: 430px;
+        .back{
+          opacity: 0;
+        }
+        .text{
+         width: 701px;
+            height: 282px;
+            h1{
+                font-size: 30px;
+                width: 430px;
+                br:first-child{
+                    display: none;
+                  
+                }
+            }
+            p{
+                font-size: 13px;
+                font-weight: normal;
+                color: #e5e7eb;
+                width: 600px;
+                br{
+                    display: block;
+                }
+               
+              
+            }
+        }
+        .btn{
+            margin: 0;
+        }
+        .center-text{
+             display: none;
         }
        }
     }
