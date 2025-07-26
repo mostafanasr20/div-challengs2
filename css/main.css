@@ -574,14 +574,14 @@ ul{
     .landing{
         overflow: hidden;
         padding: 20px 5px;
-      
+       width: 430px;
        .container{
         width: 430px;
         .back{
           opacity: 0;
         }
         .text{
-         width: 701px;
+         width: 398px;
             height: 282px;
             .new{
                 width: max-content;
@@ -591,27 +591,28 @@ ul{
                 gap: 3px;
             }
             h1{
-                font-size: 26px;
-                width: 430px;
-                br:first-child{
-                    display: none;
-                  
+                font-size: 35px;
+                width: 398px;
+              
+                span{
+                     br{
+                    display: block;
+                }
                 }
             }
             p{
-                font-size: 13px;
+                font-size: 19px;
                 font-weight: normal;
                 color: #e5e7eb;
-                width: 600px;
-                br{
-                    display: block;
-                }
+               width: 398px;
+               height: 96px;
+              
                
               
             }
         }
         .btn{
-            margin: 0;
+            margin-top: 100px ;
         }
         .center-text{
              display: none;
@@ -876,11 +877,11 @@ ul{
                     }
                 }
                 p{
-                    text-align: center;
+                    text-align: c;
                       width: 398px;
                     margin: 8px 0 0;
                     line-height: 1.5;
-                    font-size: 19px;
+                    font-size: 16px;
                     br:first-child{
                         display: none;
                         
