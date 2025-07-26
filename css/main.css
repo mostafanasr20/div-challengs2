@@ -572,8 +572,7 @@ ul{
 }
 @media(max-width :430px){
     .landing{
-        overflow: hidden;
-        
+        overflow: hidden;    
        width: 430px;
        .container{
         width: 430px;
@@ -586,7 +585,7 @@ ul{
             .new{
                 width: 348px;
                 height: 32px;
-                display: flex;
+                display: none;
                 align-items: center;
                 font-size: 15px;
                 gap: 3px;
@@ -602,7 +601,7 @@ ul{
                 }
             }
             p{
-                font-size: 15px;
+                font-size: 12px;
                 font-weight: normal;
                 color: #e5e7eb;
                width: 398px;
