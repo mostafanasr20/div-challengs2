@@ -584,14 +584,14 @@ ul{
          width: 701px;
             height: 282px;
             .new{
-                width: 350px;
+                width: max-content;
                 height: 32px;
                 display: flex;
                 align-items: center;
                 gap: 3px;
             }
             h1{
-                font-size: 28px;
+                font-size: 26px;
                 width: 430px;
                 br:first-child{
                     display: none;
@@ -886,7 +886,7 @@ ul{
         .boxes{
               width: 398px;
             .box{
-                    width: 733px;
+                    width: 398px;
                 display: flex;
                 flex-direction: column;
                 /* align-items: center; */
