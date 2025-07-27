@@ -13,7 +13,7 @@
 body{
     background-color: #020617;
     font-family: "open Sans";
-    overflow-x: hidden;
+    overflow: hidden;
   
   
 }
@@ -259,9 +259,16 @@ ul{
         ul{
             display: none;
         }
+        .btn{
+            display: none;
+        }
+        .logo{
+            margin: auto;
+        }
     }
 }
 .landing{
+    overflow: hidden;
     .container{
    padding: 96px 16px;
     .back{
@@ -574,6 +581,8 @@ ul{
     .landing{
         overflow: hidden;    
        width: 430px;
+      
+       /* height: 1000px; */
        .container{
         /* overflow: hidden;  */
         width: 430px;
@@ -582,17 +591,12 @@ ul{
         }
         .text{
          width: 398px;
-            height: 282px;
+            /* height: 448px; */
             .new{
-                width: 348px;
-                height: 32px;
                 display: none;
-                align-items: center;
-                font-size: 15px;
-                gap: 3px;
             }
             h1{
-                font-size: 35px;
+                font-size: 30px;
                 width: 398px;
               
                 span{
@@ -602,18 +606,20 @@ ul{
                 }
             }
             p{
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: normal;
                 color: #e5e7eb;
                width: 398px;
                height: 96px;
+               line-height: normal;
+              
               
                
               
             }
         }
-        .btn{
-            margin-top: 100px ;
+        .btn, p.small{
+          display: none;
         }
         .center-text{
              display: none;
@@ -905,6 +911,7 @@ ul{
         text-align: center;
         width: 430px;
         padding: 48px 16px 0;
+        overflow: hidden;
         .back{
             display: none;
         }
@@ -933,11 +940,8 @@ ul{
                       width: 398px;
                     margin: 8px 0 0;
                     line-height: 1.5;
-                    font-size: 14px;
-                    br:first-child{
-                        display: none;
-                        
-                    }
+                    font-size: 16px;
+                
                 }
             }
         }
@@ -947,11 +951,12 @@ ul{
                     width: 398px;
                 display: flex;
                 flex-direction: column;
+                height: 493px;
                 /* align-items: center; */
                 gap: 10px;
                 padding: 0 8px;
                 img{
-                    width: 382px;
+                    width: 372px;
                 }
                 .title{
                     h3{
@@ -965,6 +970,8 @@ ul{
                     p{
                         text-align: center;
                        width: 286px;
+                       font-size: 16px;
+
                         br:first-child{
                             display: none;
                         }
@@ -1052,4 +1059,6 @@ ul{
         
     }
 }
+
+
 
