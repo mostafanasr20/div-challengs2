@@ -884,18 +884,26 @@ ul{
             width: 398px;
             display: flex;
             flex-direction: column;
+            align-items: center;
             justify-content: center;
             .box{
-                width: 100%;
+              
+               width: 398px;
               display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 0 8px;
             img{
                 width: 382px;
             }
             .title{
                 width: 382px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                
                 h3{
                     width: 286px;
                     font-size: 22px;
