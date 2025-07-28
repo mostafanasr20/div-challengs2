@@ -884,7 +884,6 @@ ul{
             width: 398px;
             display: flex;
             flex-direction: column;
-            align-items: center;
             justify-content: center;
             .box{
                 width: 100%;
