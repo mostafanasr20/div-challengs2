@@ -639,7 +639,7 @@ ul{
                     width: 398px;
                     height: 96px;
                     margin: 16px 0 0;
-                    font-size: 18px;
+                    font-size: 15px;
                     line-height: normal;
                     br{
                         display: none;
@@ -651,7 +651,7 @@ ul{
 
             }
            .center-text{
-            display: none;
+            
             width: 398px;
             height: 206px;
               display: flex;
@@ -659,6 +659,7 @@ ul{
                 align-items: center;
                 justify-content: center;
                 margin: 96px 0;
+                display: none;
                 h2{
                     width: 320px;
                     height: 48px;
@@ -1007,7 +1008,7 @@ ul{
                 p{
                     width: 286px;
                     height: 120px;
-                   font-size: 16px;
+                   font-size: 12px;
                    margin: 12px 0 0;
                    br{
                     display: none;
@@ -1302,6 +1303,7 @@ ul{
 width: 398px;
 height: 96px;
 margin: 8px 0 0;
+font-size: 12px;
 }
    
    
