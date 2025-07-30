@@ -270,9 +270,16 @@ ul{
 
 @media(max-width: 430px){
     .header{
-        width: 430px;
+        width: 100%;
         height: 64px;
         padding: 12px;
+
+        .logo{
+            margin: auto;
+        }
+        .btn{
+            display: none;
+        }
     }
 }
 
@@ -603,7 +610,7 @@ ul{
 @media(max-width: 430px ){
     .landing{
         width: 430px;
-        padding: 96px 16px;
+        padding: 96px 13px;
         .container{
             width: 430px;
             .text{
@@ -612,11 +619,11 @@ ul{
 
                 .new{
                    
-                    width: max-content;
+                    width:310px;
                     height: 32px;
                     padding: 4px 12px 4px 4px;
                     p{
-                        font-size: 13px;
+                        font-size: 12px;
                        
                         margin: auto;
                     }
@@ -644,6 +651,7 @@ ul{
 
             }
            .center-text{
+            display: none;
             width: 398px;
             height: 206px;
               display: flex;
@@ -952,9 +960,10 @@ ul{
                       width: 398px;
                       height: 48px;
                       margin: 8px 0 0;
-                      br:last-child{
-                        display: none;
-                      }
+                      font-size: 12px;
+                     br:first-child{
+                        display: block;
+                     }
                 }
             }
          }
@@ -975,7 +984,7 @@ ul{
             justify-content: center;
             padding: 0 8px;
             img{
-                width: 382px;
+                width: 380px;
             }
             .title{
                 width: 382px;
