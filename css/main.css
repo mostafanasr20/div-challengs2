@@ -1242,7 +1242,7 @@ ul{
     }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 450px){
     .section-how{
    width: 430px;
    height: 1292px;
@@ -1302,6 +1302,9 @@ ul{
    height: 28px;
    font-size: 17px;
    margin: 16px 0 8px;
+   br{
+    display: block;
+   }
    }
 
 .slate{
@@ -1309,6 +1312,9 @@ width: 398px;
 height: 96px;
 margin: 8px 0 0;
 font-size: 12px;
+br{
+    display: block;
+}
 }
    
    
