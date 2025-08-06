@@ -951,7 +951,7 @@ ul{
                 h3{
                     width: 398px;
                     height: 144px;
-                    font-size: 32px;
+                    font-size: 28px;
                     margin: 16px 0 8px;
                     br{
                         display: block;
@@ -976,7 +976,7 @@ ul{
             align-items: center;
             justify-content: center;
             .box{
-              
+              text-align: center;
                width: 398px;
                height: 613px;
               display: flex;
@@ -985,7 +985,7 @@ ul{
             justify-content: center;
             padding: 0 8px;
             img{
-                width: 350px;
+                width: 300px;
             }
             .title{
                 width: 382px;
