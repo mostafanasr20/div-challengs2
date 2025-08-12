@@ -944,6 +944,8 @@ ul{
                 display: none;
             }
             .text{
+                width: 398px;
+                height: 200px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -951,7 +953,7 @@ ul{
                 h3{
                     width: 398px;
                     height: 144px;
-                    font-size: 28px;
+                    font-size: 32px;
                     margin: 16px 0 8px;
                     br{
                         display: block;
@@ -961,7 +963,7 @@ ul{
                       width: 398px;
                       height: 48px;
                       margin: 8px 0 0;
-                      font-size: 12px;
+                      font-size: 16px;
                      br:first-child{
                         display: block;
                      }
@@ -985,7 +987,8 @@ ul{
             justify-content: center;
             padding: 0 8px;
             img{
-                width: 300px;
+                width: 398px;
+                height: 257px;
             }
             .title{
                 width: 382px;
@@ -998,7 +1001,7 @@ ul{
                 
                 h3{
                     width: 286px;
-                    height: 76.78px;
+                   
                     font-size: 20px;
                     margin: 16px 0 8px;
                     br{
@@ -1007,7 +1010,7 @@ ul{
                 }
                 p{
                     width: 286px;
-                    height: 120px;
+                    height: 96px;
                    font-size: 12px;
                    margin: 12px 0 0;
                    br{
@@ -1313,7 +1316,7 @@ ul{
 width: 398px;
 height: 96px;
 margin: 8px 0 0;
-font-size: 18px;
+font-size: 16px;
 br:nth-child(1){
     display: block;
 }
