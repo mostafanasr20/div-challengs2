@@ -268,21 +268,6 @@ ul{
     }
 }
 
-@media(max-width: 430px){
-    .header{
-        width: 100%;
-        height: 64px;
-        padding: 12px;
-
-        .logo{
-            margin: auto;
-        }
-        .btn{
-            display: none;
-        }
-    }
-}
-
 @media(max-width: 536px){
     .header{
         width: 100%;
@@ -297,6 +282,21 @@ ul{
         }
     }
 }
+
+/* @media(max-width: 536px){
+    .header{
+        width: 100%;
+        height: 64px;
+        padding: 12px;
+
+        .logo{
+            margin: auto;
+        }
+        .btn{
+            display: none;
+        }
+    }
+} */
 
 
 
@@ -623,7 +623,7 @@ ul{
     }
 }
 
-@media(max-width: 430px ){
+@media(max-width: 536px ){
     .landing{
         width: 430px;
         padding: 96px 13px;
@@ -694,70 +694,7 @@ ul{
 }
 
 
-@media( max-width: 536px){
-    .landing{
-        width: 521px;
-        height: 1000px;
-        .container{
-            width:489px;
-            height: 660px;
-            .text{
-                width:489px;
-            height: 371px;
-            .new{
-                width: 355px;
-                height: 32px;
-                span{
-                    width: 43px;
-                    /* height: 24px; */
-                    font-size: 12px;
-                }
-                p{
-                    width: 287px;
-                    /* height: 20px; */
-                    font-size: 14px;
-                }
-            }
-            h1{
-                 width:489px;
-            height: 105px;
-            font-size: 30px;
-            }
-            p{
-                     width:489px;
-            height: 72px;
-            font-size: 13px;
-            
-            br{
-                display: block;
-            }
-            }
-            }
-            .btn{
-                margin: 0;
-                width: 301px;
-                height: 44px;
-            }
 
-            .center-text{
-                width:489px;
-            height: 192px;
-            h2{
-                width: 320px;
-                height: 48px;
-
-            }
-            .svg{
-                display: flex;
-                align-items: center;
-                gap: 20px;
-                 width:489px;
-            height: 88px;
-            }
-            }
-        }
-    }
-}
 
 .section{
     width: 1351px;
@@ -1010,7 +947,7 @@ ul{
         
     }
 
-@media(max-width: 430px){
+@media(max-width: 536px){
     .section{
     width: 430px;
     height: 2301px;
@@ -1106,7 +1043,7 @@ ul{
     }
     }
 
-@media(max-width: 536px){
+/* @media(max-width: 536px){
     .section{
     width: 521px;
     height: 2409px;
@@ -1207,7 +1144,7 @@ ul{
             }
          }
     }
-    }
+    } */
 
 
 
@@ -1433,7 +1370,7 @@ ul{
     }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 536px){
     .section-how{
    width: 430px;
    height: 1292px;
@@ -1524,7 +1461,7 @@ br:nth-child(3){
    }
     }
 
-    @media(max-width: 536px){
+    /* @media(max-width: 536px){
     .section-how{
    width: 521px;
    height: 1220px;
@@ -1613,7 +1550,7 @@ br:nth-child(3){
    }
    
    }
-    }
+    } */
 
 
     .section-roadmap{
@@ -1981,7 +1918,7 @@ br:nth-child(3){
     }
     }
     
-    @media(max-width: 430px){
+    @media(max-width: 536px){
     .section-roadmap{
         
         width: 430px;
@@ -2117,139 +2054,7 @@ br:nth-child(3){
     }
     }
     
-    @media(max-width: 536px){
-    .section-roadmap{
-        
-        width: 521px;
-        height: 1618px;
-        padding: 64px 16px;
-        
-        .center-bg{
-              width: 489px;
-            height: 358px;
-            padding: 64px 0 80px;
-            .text{
-                  width: 489px;
-            height: 158px;
-                 .purple{
-                      width: 489px;
-                     height: 24px;
-                 }
-                 h3{
-                  width: 489px;
-                    /* height: 76px; */
-                    font-size: 25px;
-                 }
-                 .slat{
-                     width: 489px;
-                    height: 96px;
-                    font-size: 16px;
-                    br{
-                        display: none;
-                    }
-                 }
-            }
-           
-        }
-        .boxes{
-         width: 489px;
-         height: 1116px;
-         display: flex;
-         flex-direction: column;
-            gap: 10px;
-
-            .beg-box{
-                 width: 489px;
-         height: 600px;
-           display: flex;
-            align-items: center;
-            flex-direction: column;
-            gap: 10px;
-
-         .card ,.critv{
-            width: 471px;
-            height: 381px;
-            img{
-                width: 453px;
-                height: 203px;
-
-            }
-            .content{
-                width: 453px;
-                height: 120px;
-                    padding: 8px;
-                    margin: 12px 0 0;
-                .ecx-width{
-                    width: 346px;
-                    height: 24px;
-                }
-                .title{
-                    h4{
-                        width: 437px;
-                    height: 24px;
-                    br{
-                        display: none;
-                    }
-                    }
-                    p{
-                         width: 437px;
-                    height: 40px;
-                    br:nth-child(1){
-                        display: none;
-                    }
-                    br:nth-child(2){
-                        display: none;
-                    }
-                    }
-                }
-            }
-          
-         }
-            }
-            .small-boxes{
-                      width: 489px;
-         height: 600px;
-         .boxes-container{
-            width: 455px;
-            height: 414px;
-            .md-font{
-                 width: 455px;
-                height: 24px;
-            }
-            .xs{
-             width: 455px;
-                height: 16px;
-            }
-            .small-cont{
-                width: 455px;
-                height: 402px;
-                .cont{
-                     width: 455px;
-                     height: 74px;
-                     .conte{
-                        width: 474px;
-                        height: 56px;
-                        label{
-                            width: 25px;
-                            height: 20px;
-                        }
-                        .xs ,.git{
-                             width: 274px;
-                               height: 32px;
-                               line-height: 1.2;
-                               
-                        }
-                     }
-                }
-            }
-         }
-         
-            }
-        }
-       
-
-    }
-    }
+   
     
 
 
