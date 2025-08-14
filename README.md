@@ -1,2 +1,2 @@
-# div-challengs2
+# div-challengs2 On desktop only
 div-challengs
